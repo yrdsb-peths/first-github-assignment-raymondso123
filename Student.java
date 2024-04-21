@@ -2,9 +2,9 @@ public class Student
 {
     private String name;
     private int cohort;
-    private Boolean honors;
+    private boolean honors;
     
-    public Student(String Name, int grade, Boolean hons)
+    public Student(String Name, int grade, boolean hons)
     {
         name = Name;
         cohort = grade;
