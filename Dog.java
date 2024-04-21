@@ -10,6 +10,6 @@ public class Dog {
     }
 
     public String toString() {
-        return "The " + age + " year old " + breed + " is called " + name + "!"
+        return "The " + age + " year old " + breed + " is called " + name + "!";
     }
 }
