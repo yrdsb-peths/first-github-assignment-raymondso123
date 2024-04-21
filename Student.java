@@ -11,7 +11,7 @@ public class Student
         honors = hons;
     }
 
-    private honString = honors ? " honors" : "";
+    private String honString = honors ? "" : " honors ";
     
     public String toString()
     {
