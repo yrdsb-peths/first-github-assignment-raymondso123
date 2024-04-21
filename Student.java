@@ -11,10 +11,10 @@ public class Student
         honors = hons;
     }
 
-    private String honString = honors ? "" : " honors ";
+    private String honString = honors ? "" : " honors";
     
     public String toString()
     {
-        return name + " is a " + cohort + honString + " student!";
+        return name + " is a grade " + cohort + honString + " student!";
     }
 }
